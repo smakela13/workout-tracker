@@ -1,7 +1,5 @@
-/* eslint-disable no-unused-vars */
 function calculateTotalWeight(data) {
   const totals = [];
-
   data.forEach(workout => {
     const workoutTotal = workout.exercises.reduce((total, {type, weight}) => {
       if (type === 'resistance') {
@@ -33,7 +31,7 @@ function populateChart(data) {
     }).format(date);
   });
 
-  const lineChart = new Chart(line, {
+  let lineChart = new Chart(line, {
     type: 'line',
     data: {
       labels,
@@ -61,7 +59,7 @@ function populateChart(data) {
     },
   });
 
-  const barChart = new Chart(bar, {
+  let barChart = new Chart(bar, {
     type: 'bar',
     data: {
       labels,
