@@ -31,7 +31,7 @@ function populateChart(data) {
     }).format(date);
   });
 
-  let lineChart = new Chart(line, {
+  const lineChart = new Chart(line, {
     type: 'line',
     data: {
       labels,
@@ -59,7 +59,7 @@ function populateChart(data) {
     },
   });
 
-  let barChart = new Chart(bar, {
+  const barChart = new Chart(bar, {
     type: 'bar',
     data: {
       labels,
