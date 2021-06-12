@@ -22,15 +22,15 @@ const workoutSchema = new Schema({
       },
       weight: {
         type: Number,
-        required: 'Enter a weight',
+        default: 0,
       },
       sets: {
         type: Number,
-        required: 'Enter a number of sets',
+        default: 0,
       },
       reps: {
         type: Number,
-        required: 'Enter a number of reps',
+        default: 0,
       },
       duration: {
         type: Number,
@@ -38,7 +38,7 @@ const workoutSchema = new Schema({
       },
       distance: {
         type: Number,
-        required: 'Enter a distance',
+        default: 0,
       },
     },
   ],
