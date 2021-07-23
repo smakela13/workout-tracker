@@ -36,9 +36,9 @@ Once those steps are done, you can view the application in your browser using lo
 
 ## Usage
 
-![Sarah Mäkelä's Workout Tracker](./assets/last-workout-screenshot.png)
+![Soma Mäkelä's Workout Tracker](./assets/last-workout-screenshot.png)
 
-Navigate to [Sarah Mäkelä's Workout Tracker](https://frozen-anchorage-27658.herokuapp.com/) and view the web page.
+Navigate to [Soma Mäkelä's Workout Tracker](https://frozen-anchorage-27658.herokuapp.com/) and view the web page.
 
 * Once you're there, view your previous workout data.
 * Click New Workout to add a new exercise.
@@ -46,11 +46,11 @@ Navigate to [Sarah Mäkelä's Workout Tracker](https://frozen-anchorage-27658.he
 * Input the entries you need like name, weight, sets, reps, duration, and/or distance.
 * View your Last Workout data.
 
-![Sarah Mäkelä's Workout Tracker](./assets/workout-dashboard-screenshot.png)
+![Soma Mäkelä's Workout Tracker](./assets/workout-dashboard-screenshot.png)
 
 ## Credits
 
-Created by [Sarah Mäkelä](https://github.com/smakela13).
+Created by [Soma Mäkelä](https://github.com/smakela13).
 
 ## License
 
